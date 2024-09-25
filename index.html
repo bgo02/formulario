@@ -3,70 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia de Preenchimento do Formulário de Provas</title>
+    <title>Guia de Preenchimento - 2ª Vara Federal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            color: #333;
             margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
             padding: 20px;
+            text-align: center;
+            color: white;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
+            max-width: 900px;
+            margin: 30px auto;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #333;
+            color: #4CAF50;
         }
         p {
-            font-size: 18px;
-            color: #555;
+            line-height: 1.6;
         }
-        .video {
+        .video-container {
             margin: 20px 0;
         }
-        .download-btn {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
         }
-        .download-btn:hover {
-            background-color: #0056b3;
+        .formulario-link {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 15px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .formulario-link:hover {
+            background-color: #45a049;
         }
         footer {
-            margin-top: 20px;
             text-align: center;
-            color: #888;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            iframe {
+                height: 250px;
+            }
+            .formulario-link {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Guia de Preenchimento - 2ª Vara Federal de Bento Gonçalves</h1>
+    </header>
+
     <div class="container">
-        <h1>Guia de Preenchimento do Formulário de Provas</h1>
-        <p>Bem-vindo ao guia de preenchimento do formulário de provas para processos na 2ª Vara Federal. Por favor, assista ao vídeo abaixo que ensina a maneira correta de preencher o quadro anexo, especificando claramente os documentos e páginas que comprovam as alegações.</p>
-        
-        <div class="video">
-            <div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080;">
-                <iframe src="https://share.synthesia.io/embeds/videos/43e8d7c1-37a2-4fcc-b988-7639fe0bc418" loading="lazy" title="Synthesia video player - 2ª Vara Federal: Guia de Preenchimento do Formulário de Provas" allowfullscreen allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow: hidden;"></iframe>
+        <h2>Instruções para o Preenchimento</h2>
+        <p>
+            Este vídeo tem como objetivo orientar os advogados a preencherem corretamente o quadro referente às provas de tempo especial. A clareza e especificidade no preenchimento são essenciais para garantir a celeridade e a eficiência no processamento dos casos.
+        </p>
+        <div class="video-container">
+            <!-- Embed do vídeo da Synthesia -->
+            <div style="position: relative; overflow: hidden; aspect-ratio: 16/9;">
+                <iframe src="https://share.synthesia.io/embeds/videos/43e8d7c1-37a2-4fcc-b988-7639fe0bc418" loading="lazy" title="Synthesia video player - 2ª Vara Federal: Guia de Preenchimento do Formulário de Provas" allowfullscreen allow="encrypted-media; fullscreen;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></iframe>
             </div>
         </div>
 
-        <p>Após assistir ao vídeo, clique no link abaixo para acessar e baixar o formulário. Preencha-o com todas as informações necessárias e junte ao processo.</p>
+        <p>
+            Abaixo está o link para acessar o formulário. Certifique-se de que o preenchimento esteja de acordo com as instruções do vídeo, especificando os agentes nocivos, a documentação, e os dados do processo (evento e página):
+        </p>
 
-        <a class="download-btn" href="https://docs.google.com/document/d/1bQsBacinviJbD61PuN1vLQK8olO-p64IJKHBT5TVb68/edit?usp=sharing" target="_blank">Acessar o Formulário</a>
-
-        <footer>
-            <p>&copy; 2ª Vara Federal de Bento Gonçalves - Todos os direitos reservados.</p>
-        </footer>
+        <!-- Link para o Google Docs -->
+        <a href="https://docs.google.com/document/d/1bQsBacinviJbD61PuN1vLQK8olO-p64IJKHBT5TVb68/edit?usp=sharing" class="formulario-link" target="_blank">Acessar Formulário</a>
     </div>
+
+    <footer>
+        <p>2ª Vara Federal de Bento Gonçalves - Justiça Federal</p>
+    </footer>
 </body>
 </html>
