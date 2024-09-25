@@ -37,7 +37,8 @@
         }
         video {
             width: 100%;
-            height: auto;
+            height: 400px;
+            border: none;
             border-radius: 10px;
         }
         .formulario-link {
@@ -61,6 +62,9 @@
             margin-top: 30px;
         }
         @media (max-width: 600px) {
+            video {
+                height: 250px;
+            }
             .formulario-link {
                 font-size: 16px;
             }
@@ -78,9 +82,9 @@
             Este vídeo tem como objetivo orientar os advogados a preencherem corretamente o quadro referente às provas de tempo especial, rural e urbano. A clareza e especificidade no preenchimento são essenciais para garantir a celeridade e a eficiência no processamento dos casos.
         </p>
         <div class="video-container">
-            <!-- Exibe o vídeo hospedado no GitHub -->
+            <!-- Substitua o embed do vídeo pelo arquivo mp4 hospedado -->
             <video controls>
-                <source src="https://bgo02.github.io/formulario/video.mp4" type="video/mp4">
+                <source src="https://github.com/bgo02/formulario/raw/f6ffd86beb477d41f083092e2e2868d1ea968ec4/video.mp4" type="video/mp4">
                 Seu navegador não suporta a reprodução de vídeos.
             </video>
         </div>
@@ -90,7 +94,7 @@
         </p>
 
         <!-- Link para o formulário hospedado no GitHub -->
-        <a href="https://bgo02.github.io/formulario/form.docx" class="formulario-link" download>Acessar Formulário</a>
+        <a href="https://github.com/bgo02/formulario/raw/f6ffd86beb477d41f083092e2e2868d1ea968ec4/form.docx" class="formulario-link" target="_blank">Acessar Formulário</a>
     </div>
 
     <footer>
